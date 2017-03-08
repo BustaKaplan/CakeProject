@@ -1,0 +1,172 @@
+.splash{
+  width:100%;
+  position:relative;
+  top:0px;
+  left:0px;
+  margin:0px;
+}
+.nav-bar{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-color: rgba(255,255,255,0.9);
+}
+.intro{
+  width:38%;
+  padding:3rem;
+  margin-top: 5rem;
+  text-align:left;
+  float:left;
+  padding-right:6%;
+  padding-left:6%;
+  background-color: white;
+}
+.learn-fix{
+  color:#be5f27;
+  margin:0px;
+}
+.lemon-cake{
+  display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items: center;
+  margin:0px;
+  font-weight:bold;
+  font-size: 3.25rem;
+  line-height: 2.5rem;
+  width:50%;
+  background-color:#c3bbac;
+  color:white;
+  text-align: center;
+  left:50%;
+  padding-bottom:2rem;
+  padding-top: 2rem;
+}
+.get-your-fix{
+  color:white;
+  background-color:#d49b30;
+  text-align: center;
+  padding-top:.5em;
+  margin:auto;
+  width:20%;
+  height:2em;
+  font-size: 2em;
+  position:absolute;
+  top:28em;
+  left:40%;
+  z-index: 2;
+}
+#brown-line{
+  margin:0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #8e5942;
+  color:white;
+  font-size: 2.1em;
+  height: 5rem;
+}
+.line-two{
+  margin:0px;
+  display:flex;
+}
+.cake-one{
+  width:70%;
+  margin:0px;
+}
+.baked-with-love{
+  display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  font-weight:bold;
+  font-size: 3.25rem;
+  line-height: 2rem;
+  width:30%;
+  color:#c3bbac;
+  background-color:white;
+  text-align: center;
+  left:65%;
+  padding-bottom:2rem;
+  padding-top: 2rem;
+}
+.line-three{
+  margin:0px;
+  display: flex;
+
+}
+.cake-two{
+  width:70%;
+  margin:0px;
+}
+.made-from-scratch{
+  display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  font-weight:bold;
+  font-size: 3.25rem;
+  line-height: 2rem;
+  width:30%;
+  color:#c3bbac;
+  background-color:white;
+  text-align: center;
+  left:65%;
+  padding-bottom:2rem;
+  padding-top: 2rem;
+}
+.line-four{
+  margin:0px;
+  display: flex;
+}
+.cake-three{
+  width:70%;
+  margin:0px;
+}
+.custom-orders-available{
+  display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  font-weight:bold;
+  font-size: 3.25rem;
+  line-height: 2rem;
+  width:30%;
+  color:#c3bbac;
+  background-color:white;
+  text-align: center;
+  left:65%;
+  padding-bottom:2rem;
+  padding-top: 2rem;
+}
+footer{
+  background-color:#be5f27;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height:8em;
+}
+.info{
+  color:#f2f2f2;
+  text-align: center;
+}
+.fix-white{
+  padding:2em;
+}
+.social{
+  color:white;
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media{
+  padding:.5em;
+}
