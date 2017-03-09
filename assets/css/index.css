@@ -5,7 +5,8 @@
   left:0px;
   margin:0px;
 }
-.nav-bar{
+nav{
+  font-family:lato;
   width:100%;
   display:flex;
   justify-content: space-around;
@@ -16,6 +17,7 @@
   background-color: rgba(255,255,255,0.9);
 }
 .intro{
+  font-family:lato;
   width:38%;
   padding:3rem;
   margin-top: 5rem;
@@ -35,6 +37,7 @@
     flex-direction:column;
     align-items: center;
   margin:0px;
+  font-family:oswald;
   font-weight:bold;
   font-size: 3.25rem;
   line-height: 2.5rem;
@@ -47,6 +50,7 @@
   padding-top: 2rem;
 }
 .get-your-fix{
+  font-family: Oswald;
   color:white;
   background-color:#d49b30;
   text-align: center;
@@ -61,6 +65,7 @@
   z-index: 2;
 }
 #brown-line{
+  width:100%;
   margin:0px;
   display: flex;
   align-items: center;
@@ -78,7 +83,10 @@
   width:70%;
   margin:0px;
 }
-.baked-with-love{
+.baked-with-love,
+.made-from-scratch,
+.custom-orders-available{
+  font-family:oswald;
   display:flex;
     flex-wrap:wrap;
     flex-direction:column;
@@ -86,7 +94,7 @@
     justify-content: center;
   font-weight:bold;
   font-size: 3.25rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
   width:30%;
   color:#c3bbac;
   background-color:white;
@@ -98,28 +106,10 @@
 .line-three{
   margin:0px;
   display: flex;
-
 }
 .cake-two{
   width:70%;
   margin:0px;
-}
-.made-from-scratch{
-  display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-  font-weight:bold;
-  font-size: 3.25rem;
-  line-height: 2rem;
-  width:30%;
-  color:#c3bbac;
-  background-color:white;
-  text-align: center;
-  left:65%;
-  padding-bottom:2rem;
-  padding-top: 2rem;
 }
 .line-four{
   margin:0px;
@@ -129,24 +119,8 @@
   width:70%;
   margin:0px;
 }
-.custom-orders-available{
-  display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-  font-weight:bold;
-  font-size: 3.25rem;
-  line-height: 2rem;
-  width:30%;
-  color:#c3bbac;
-  background-color:white;
-  text-align: center;
-  left:65%;
-  padding-bottom:2rem;
-  padding-top: 2rem;
-}
 footer{
+  font-family:oswald;
   background-color:#be5f27;
   display:flex;
   justify-content: space-around;
