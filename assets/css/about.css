@@ -1,0 +1,22 @@
+.splash{
+  width:100%;
+  position:relative;
+  top:0px;
+  left:0px;
+  margin:0px;
+}
+nav{
+  font-family:lato;
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-color: rgba(255,255,255,0.9);
+}
+a:link, a:visited{
+  color:black;
+  text-decoration: none;
+}
