@@ -1,12 +1,16 @@
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheets.css">
 <link rel="stylesheet" type="text/css" href="Oswald.zip"/>
   <head>
     <meta charset="utf-8">
     <title>FIXCakes</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+  <script src="assets/JavaScript/Menu.js"></script>
   </head>
   <body>
     <img src="assets/images/fix-menu-hero.jpg" alt="backsplash" class="splash">
@@ -19,14 +23,15 @@
   </nav>
 <div class="main">
   <h1 class=flex>
-    <p class=cakes> Cakes </p>
-    <p class="other"> Other </p>
+    <button class ="cakes" type="button">Cakes</button>
+    <button class="other" type="button"> Other </button>
   </h1>
     <P class="intro">Made from scratch daily. Most cakes are available
       in a variety of sizes and by-the-slice<br>
       Please contact Riely for more details and questions.
     </p>
-<div class="menu-items">
+<div class="show-cakes">
+<div class="items">
   <h3> Chocolate Cake </h3>
     <p>A rich moist chocolate cake with chocolate
       buttercream icing. Moist, delicious and everthing in between.
@@ -64,6 +69,32 @@
   </p>
 </div>
 </div>
+<div class="show-other">
+  <div class = "items">
+  <h3> Gooey Butter Cake </h3>
+    <p>A rich moist chocolate cake with chocolate
+      buttercream icing. Moist, delicious and everthing in between.
+    </p>
+  <h3> Cookies </h3>
+  <p>A rich moist chocolate cake with chocolate
+    buttercream icing. Moist, delicious and everthing in between.
+  </p>
+  <h3>Whoopie Pies</h3>
+  <p>A rich moist chocolate cake with chocolate
+    buttercream icing. Moist, delicious and everthing in between.
+  </p>
+  <h3> Banana Nut Bread </h3>
+    <p>A rich moist chocolate cake with chocolate
+      buttercream icing. Moist, delicious and everthing in between.
+    </p>
+  <h3> Custom Orderd </h3>
+  <p>A rich moist chocolate cake with chocolate
+    buttercream icing. Moist, delicious and everthing in between.
+  </p>
+</div>
+</div>
+</div>
+</p>
 <footer>
   <p class=info>
     <label for=address> 27 Maryland Plaza<br>Saint Louis, MO 63108</label>

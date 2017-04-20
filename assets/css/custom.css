@@ -1,22 +1,8 @@
-.splash{
-  width:100%;
-  position:relative;
-  top:0px;
-  left:0px;
-  margin:0px;
-}
-nav{
-  font-family:lato;
-  width:100%;
-  display:flex;
-  justify-content: space-around;
-  align-items:center;
-  position:absolute;
-  top:0px;
-  left:0px;
-  background-color: rgba(255,255,255,0.9);
-}
-a:link, a:visited{
-  color:black;
-  text-decoration: none;
+.customize{
+  color:#f2f2f2;
+  background-color:#be5f27;
+  margin: 0 40% 0;
+  padding: .25em;
+  display: inline-flex;
+  text-align: center;
 }
