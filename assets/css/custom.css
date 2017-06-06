@@ -6,3 +6,18 @@
   display: inline-flex;
   text-align: center;
 }
+h4{
+  width:70%;
+  padding-right: 12%;
+  padding-left: 12%;
+}
+.textbox{
+  margin-left: 12%;
+}
+#thedetails{
+  width:70%;
+  height:8em;
+}
+#submit{
+  margin-left: 12%;
+}
